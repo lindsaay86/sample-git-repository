@@ -1,0 +1,120 @@
+body {
+  max-width: 800px;
+  margin-left: 50px;
+}
+.search {
+  background: rgb(50, 99, 233, 0.8);
+  color: #fff;
+  border: 2px solid rgb(50, 99, 233, 0.8);
+  transition: all 150ms ease-in-out;
+}
+.search:hover {
+  background: #fff;
+  color: rgb(50, 99, 233, 0.8);
+  cursor: pointer;
+}
+.current-location {
+  background: rgba(34, 156, 140, 0.884);
+  color: #fff;
+  border: 2px solid rgba(34, 156, 140, 0.884);
+  transition: all 150ms ease-in-out;
+}
+.current-location:hover {
+  background: #fff;
+  color: rgba(34, 156, 140, 0.884);
+  cursor: pointer;
+}
+.main-card {
+  margin: 20px 0px 10px 0px;
+  background-color: rgb(50, 99, 233, 0.8);
+  color: #fff;
+  border: 1px solid rgb(50, 99, 233, 0.8);
+}
+.main-temp-city {
+  margin: 10px 0px;
+}
+.main-temperature {
+  text-align: center;
+  font-size: 40px;
+  vertical-align: auto;
+}
+.main-city {
+  margin-left: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: 900;
+}
+.main-weather-condition {
+  text-align: center;
+}
+.main-temp-celsius,
+.main-temp-fahrenheit,
+.main-temp-bar {
+  font-size: 20px;
+  vertical-align: top;
+}
+#main-temp-celsius,
+#main-temp-fahrenheit {
+  text-decoration: none;
+  color: yellow;
+}
+#main-temp-celsius:hover {
+  color: rgb(50, 99, 233, 0.8);
+  cursor: pointer;
+}
+#main-temp-fahrenheit:hover {
+  color: rgb(50, 99, 233, 0.8);
+  cursor: pointer;
+}
+.weather-info {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-decoration: none;
+  text-align: right;
+  color: yellow;
+  font-size: 15px;
+}
+
+.next-forecast {
+  text-align: center;
+  margin: 10px 0px;
+  border: 1px solid rgb(50, 99, 233, 0.6);
+}
+.next-5-days,
+.my-favorite-cities {
+  font-weight: bold;
+  color: rgb(50, 99, 233, 0.8);
+}
+.five-days {
+  transition: all 150ms ease-in-out;
+  padding: 5px 0px;
+}
+.five-days:hover {
+  background: rgb(50, 99, 233, 0.2);
+  cursor: pointer;
+}
+.weekday {
+  font-weight: bold;
+}
+.enter-city {
+  border: 2px solid rgb(50, 99, 233, 0.8);
+  color: #5f5f5f;
+}
+.city-search {
+  text-align: center;
+  margin: 15px 0px 10px 0px;
+}
+.my-favorite-cities {
+  text-align: center;
+  margin: 20px 0px 15px 0px;
+}
+.favorite-city {
+  margin: 10px 0px;
+  border: 1px solid rgb(50, 99, 233, 0.6);
+}
+.city-state {
+  font-weight: bold;
+}
+.temperature {
+  text-align: center;
+}
